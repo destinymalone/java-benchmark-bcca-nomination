@@ -1,5 +1,7 @@
+import java.io.Serializable;
 
-public class Nominator {
+public class Nominator implements Serializable {
+    private static final long serialVersionUID = 1L;
     String name;
     String emailAddress;
     String schoolDistrictOrAffiliation;
